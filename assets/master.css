@@ -328,7 +328,6 @@ body{
     bottom: 20px;
     right: 30px;
     z-index: 99; /* Asegurarse de que el botón esté por encima de otros elementos */
-    border: none; /* Remover el borde */
     outline: none; /* Remover el outline */
     color: white; /* Color del texto/icono */
     cursor: pointer; /* Cambiar el cursor al pasar el mouse por encima */
@@ -346,7 +345,7 @@ body{
     left: 0;
     border-radius: 55%;
      z-index: -1;
-    background-color: var(--color-light); /* Cambiar el color de fondo al pasar el mouse por encima */
+    background-color: var(--color-white); /* Cambiar el color de fondo al pasar el mouse por encima */
     transition: all .6s ease;
    
 }
@@ -367,6 +366,9 @@ body{
     color: white;
 }
 
+.text-slider{
+    font-weight: 300;
+}
 
 /*------------- stilo para Reproductor m3*/
 #player {
