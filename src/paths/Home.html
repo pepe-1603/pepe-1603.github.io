@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/master.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-blocks">
+        
+        <section class="block-1">
+            <div id="top" class="header">
+                <nav class="nav-menu">
+                    <div class="logo"><i class="fas fa-user"></i></div>
+                    
+                    <a href="../../index.html" class="btn btn-salir"> <i class="fas fa-door-open"></i> Salir</a>
+                </nav>
+
+                <div id="player">
+                    <audio id="audio" preload="auto" tabindex="0" controls="" type="audio/mpeg">
+                        <source type="audio/mp3" src="../../assets/audios/audio (11).mp3">
+                        No se pudo cargar el audio.
+                    </audio>
+                    <div class="buttons">
+                        <div id="btnAnterior"><i class="fas fa-step-backward"></i></div>
+                        <div id="btnPausa"><i class="fas fa-play"></i></div>
+                        <div id="btnSiguiente"><i class="fas fa-step-forward"></i></div>
+                    </div>
+                    <div class="volume">
+                        <p>Volumen</p>
+                        <input type="range" min="0" max="10" value="5" id="volumeSlider">
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+            <a href="../paths/Bienvenida.html" class="btn btn-back"><i class="fas fa-arrow-left"></i></a>
+
+    </div>
+    
+    <a href="#top" id="btn-hidden" class="btn btn-top"> <i class="fas fa-arrow-up"></i> Top</a>
+
+    <script src="../scripts/serviceReproductorMp3.js"></script>
+    <script src="../scripts/script.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>
